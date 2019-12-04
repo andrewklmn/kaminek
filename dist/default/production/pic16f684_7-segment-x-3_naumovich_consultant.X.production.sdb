@@ -1,0 +1,290 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F684 ]
+[d frameptr 0 ]
+"5 /opt/microchip/xc8/v2.10/pic/sources/c90/common/awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"43 /opt/microchip/xc8/v2.10/pic/sources/c90/common/fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"10 /opt/microchip/xc8/v2.10/pic/sources/c90/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"8 /opt/microchip/xc8/v2.10/pic/sources/c90/common/sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"15 /opt/microchip/xc8/v2.10/pic/sources/c90/common/Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 /opt/microchip/xc8/v2.10/pic/sources/c90/common/Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+"4 /opt/microchip/xc8/v2.10/pic/sources/c90/common/Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"10 /opt/microchip/xc8/v2.10/pic/sources/c90/common/xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"6 /opt/microchip/xc8/v2.10/pic/sources/c90/pic/__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"4 /home/user/MPLABXProjects/pic16f684_7-segment-x-3_naumovich_consultant.X/7-segment-x-3.c
+[v _convert_to_segment convert_to_segment `(v  1 e 1 0 ]
+"180
+[v _show_LED1 show_LED1 `(v  1 e 1 0 ]
+"187
+[v _show_LED2 show_LED2 `(v  1 e 1 0 ]
+"194
+[v _show_LED3 show_LED3 `(v  1 e 1 0 ]
+"201
+[v _draw_add draw_add `(v  1 e 1 0 ]
+"207
+[v _draw_temp draw_temp `(v  1 e 1 0 ]
+"220
+[v _draw_needed_amount draw_needed_amount `(v  1 e 1 0 ]
+"226
+[v _draw_minus draw_minus `(v  1 e 1 0 ]
+"232
+[v _draw_to draw_to `(v  1 e 1 0 ]
+"238
+[v _draw_hot draw_hot `(v  1 e 1 0 ]
+"263
+[v _init_LED init_LED `(v  1 e 1 0 ]
+"4 /home/user/MPLABXProjects/pic16f684_7-segment-x-3_naumovich_consultant.X/adc_pic16.c
+[v _ADC_Init ADC_Init `(v  1 e 1 0 ]
+"10
+[v _ADC_Start ADC_Start `(v  1 e 1 0 ]
+"50 /home/user/MPLABXProjects/pic16f684_7-segment-x-3_naumovich_consultant.X/main.c
+[v _get_temp_value get_temp_value `(i  1 e 2 0 ]
+"59
+[v _main main `(v  1 e 1 0 ]
+"925 /opt/microchip/xc8/v2.10/pic/include/pic16f684.h
+[v _CMCON0 CMCON0 `VEuc  1 e 1 @25 ]
+"1021
+[v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
+"1028
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @31 ]
+"1188
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"1238
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1542
+[v _ANSEL ANSEL `VEuc  1 e 1 @145 ]
+"2089
+[v _ADRESL ADRESL `VEuc  1 e 1 @158 ]
+"2096
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @159 ]
+"2300
+[v _GO_nDONE GO_nDONE `VEb  1 e 0 @249 ]
+"2432
+[v _RA0 RA0 `VEb  1 e 0 @40 ]
+"2435
+[v _RA1 RA1 `VEb  1 e 0 @41 ]
+"2441
+[v _RA3 RA3 `VEb  1 e 0 @43 ]
+"2444
+[v _RA4 RA4 `VEb  1 e 0 @44 ]
+"2447
+[v _RA5 RA5 `VEb  1 e 0 @45 ]
+"2456
+[v _RC0 RC0 `VEb  1 e 0 @56 ]
+"2459
+[v _RC1 RC1 `VEb  1 e 0 @57 ]
+"2462
+[v _RC2 RC2 `VEb  1 e 0 @58 ]
+"2465
+[v _RC3 RC3 `VEb  1 e 0 @59 ]
+"2468
+[v _RC4 RC4 `VEb  1 e 0 @60 ]
+"2471
+[v _RC5 RC5 `VEb  1 e 0 @61 ]
+"39 /home/user/MPLABXProjects/pic16f684_7-segment-x-3_naumovich_consultant.X/main.c
+[v _i i `i  1 e 2 0 ]
+"40
+[v _value value `uc  1 e 1 0 ]
+"41
+[v _counter counter `i  1 e 2 0 ]
+"43
+[v _temp temp `[2]uc  1 e 2 0 ]
+"44
+[v _temp_index temp_index `uc  1 e 1 0 ]
+"45
+[v _messured_temp messured_temp `uc  1 e 1 0 ]
+"46
+[v _already_messured already_messured `uc  1 e 1 0 ]
+"47
+[v _temp_going_up temp_going_up `uc  1 e 1 0 ]
+"48
+[v _change_counter change_counter `uc  1 e 1 0 ]
+"59
+[v _main main `(v  1 e 1 0 ]
+{
+"72
+[v main@i i `uc  1 a 1 40 ]
+"195
+} 0
+"263 /home/user/MPLABXProjects/pic16f684_7-segment-x-3_naumovich_consultant.X/7-segment-x-3.c
+[v _init_LED init_LED `(v  1 e 1 0 ]
+{
+"281
+} 0
+"50 /home/user/MPLABXProjects/pic16f684_7-segment-x-3_naumovich_consultant.X/main.c
+[v _get_temp_value get_temp_value `(i  1 e 2 0 ]
+{
+"52
+[v get_temp_value@i i `i  1 a 2 2 ]
+"51
+[v get_temp_value@result result `i  1 a 2 0 ]
+"56
+} 0
+"232 /home/user/MPLABXProjects/pic16f684_7-segment-x-3_naumovich_consultant.X/7-segment-x-3.c
+[v _draw_to draw_to `(v  1 e 1 0 ]
+{
+"236
+} 0
+"207
+[v _draw_temp draw_temp `(v  1 e 1 0 ]
+{
+[v draw_temp@i i `uc  1 a 1 wreg ]
+"208
+[v draw_temp@d d `uc  1 a 1 5 ]
+"207
+[v draw_temp@i i `uc  1 a 1 wreg ]
+[v draw_temp@i i `uc  1 a 1 4 ]
+"218
+} 0
+"4 /opt/microchip/xc8/v2.10/pic/sources/c90/common/Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+{
+[v ___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v ___bmul@product product `uc  1 a 1 11 ]
+"4
+[v ___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+[v ___bmul@multiplicand multiplicand `uc  1 p 1 9 ]
+"6
+[v ___bmul@multiplier multiplier `uc  1 a 1 12 ]
+"51
+} 0
+"5 /opt/microchip/xc8/v2.10/pic/sources/c90/common/awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 7 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 6 ]
+[v ___awdiv@counter counter `uc  1 a 1 5 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 0 ]
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+"41
+} 0
+"220 /home/user/MPLABXProjects/pic16f684_7-segment-x-3_naumovich_consultant.X/7-segment-x-3.c
+[v _draw_needed_amount draw_needed_amount `(v  1 e 1 0 ]
+{
+[v draw_needed_amount@i i `uc  1 a 1 wreg ]
+[v draw_needed_amount@i i `uc  1 a 1 wreg ]
+[v draw_needed_amount@i i `uc  1 a 1 6 ]
+"224
+} 0
+"226
+[v _draw_minus draw_minus `(v  1 e 1 0 ]
+{
+"230
+} 0
+"238
+[v _draw_hot draw_hot `(v  1 e 1 0 ]
+{
+"242
+} 0
+"201
+[v _draw_add draw_add `(v  1 e 1 0 ]
+{
+"205
+} 0
+"194
+[v _show_LED3 show_LED3 `(v  1 e 1 0 ]
+{
+[v show_LED3@c c `uc  1 a 1 wreg ]
+[v show_LED3@c c `uc  1 a 1 wreg ]
+[v show_LED3@c c `uc  1 a 1 5 ]
+"199
+} 0
+"187
+[v _show_LED2 show_LED2 `(v  1 e 1 0 ]
+{
+[v show_LED2@c c `uc  1 a 1 wreg ]
+[v show_LED2@c c `uc  1 a 1 wreg ]
+[v show_LED2@c c `uc  1 a 1 5 ]
+"192
+} 0
+"180
+[v _show_LED1 show_LED1 `(v  1 e 1 0 ]
+{
+[v show_LED1@c c `uc  1 a 1 wreg ]
+[v show_LED1@c c `uc  1 a 1 wreg ]
+[v show_LED1@c c `uc  1 a 1 5 ]
+"185
+} 0
+"4
+[v _convert_to_segment convert_to_segment `(v  1 e 1 0 ]
+{
+[v convert_to_segment@value value `uc  1 a 1 wreg ]
+[v convert_to_segment@value value `uc  1 a 1 wreg ]
+[v convert_to_segment@value value `uc  1 a 1 2 ]
+"178
+} 0
+"10 /opt/microchip/xc8/v2.10/pic/sources/c90/common/xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 10 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 9 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 0 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 8 ]
+"44
+} 0
+"43 /opt/microchip/xc8/v2.10/pic/sources/c90/common/fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 36 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 35 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 26 ]
+"70
+} 0
+"8 /opt/microchip/xc8/v2.10/pic/sources/c90/common/sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 20 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 13 ]
+"20
+[v ___fldiv@new_exp new_exp `i  1 a 2 18 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 25 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 24 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 17 ]
+"8
+[v ___fldiv@a a `d  1 p 4 0 ]
+[v ___fldiv@b b `d  1 p 4 4 ]
+"185
+} 0
+"10 /home/user/MPLABXProjects/pic16f684_7-segment-x-3_naumovich_consultant.X/adc_pic16.c
+[v _ADC_Start ADC_Start `(v  1 e 1 0 ]
+{
+[v ADC_Start@channel channel `uc  1 a 1 wreg ]
+[v ADC_Start@channel channel `uc  1 a 1 wreg ]
+"12
+[v ADC_Start@channel channel `uc  1 a 1 2 ]
+"21
+} 0
+"4
+[v _ADC_Init ADC_Init `(v  1 e 1 0 ]
+{
+"8
+} 0
